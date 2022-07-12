@@ -1,0 +1,659 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url("../../fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Thin;
+  src: url("../../fonts/Poppins-Thin.ttf");
+}
+
+body {
+  background-color: #E5EEF0;
+}
+
+.main_header {
+  font-size: 30px;
+  font-weight: 500;
+  color: #252733;
+  font-family: Poppins-Medium;
+}
+
+.underline {
+  width: 75px;
+  height: 5px;
+  margin-left: 5px;
+  background-color: #00629B;
+  border-radius: 10px;
+}
+
+.inputdiv {
+  display: block;
+  padding: 5px 0;
+}
+
+.label {
+  font-size: 16px;
+  /* font-weight: 600; */
+  float: left;
+  width: 170px;
+  padding: 7px;
+  font-family: Poppins-Regular;
+  color: #363b46;
+}
+
+input[type=number],
+input[type=password],
+input[type=text],
+input[type=file],
+input[type=email],
+input[type=tel],
+input[type=datetime-local] {
+  padding: 8px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 8px 4px 20px 0px rgb(128 128 128 / 20%);
+  border-radius: 4px;
+  width: 250px;
+  font-size: 15px;
+  background: #fff;
+  color: #000;
+}
+
+select {
+  padding: 8px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 8px 4px 20px 0px rgb(128 128 128 / 20%);
+  border-radius: 4px;
+  width: 265px;
+  font-size: 15px;
+  background: #fff;
+  color: #000;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}
+
+.config_btn {
+  color: #000000bd;
+  margin-right: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px;
+  width: 150px;
+  height: 27px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-family: Poppins-SemiBold;
+}
+
+.config_card {
+  background-color: rgba(0, 160, 255, 10%);
+  margin-top: 7px;
+  border-radius: 8px;
+  width: 480px;
+  padding-left: 32px;
+  padding-top: 10px;
+  height: 360px;
+}
+
+
+.regmaster_header {
+  font-size: 22px;
+  font-family: Poppins-Regular;
+  padding-bottom: 24px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #00629B;
+  font-weight: 500;
+}
+
+.table_det table {
+  margin-top: 30px;
+  width: 95%;
+  border-collapse: collapse;
+  width: max-content;
+  background: #ffffff;
+  border-radius: 7px;
+}
+
+.table_det th,
+td {
+  padding: 5px 0px;
+  text-align: center;
+  font-family: Poppins-Regular;
+}
+
+.table_det th {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table_det td {
+  font-size: 14px;
+  color: black;
+}
+
+.table_det tr th {
+  border-bottom: 1px solid #ffeaea;
+  color: #00629b;
+  font-family: Poppins-Regular;
+}
+
+.table_det tr {
+  border-bottom: 1px solid rgb(144 218 255 / 19%);
+}
+
+
+.card_text {
+  font-weight: 600;
+  font-size: 17px;
+  display: inline-block;
+  padding-bottom: 10px;
+  color: rgb(92, 91, 91);
+  font-family: 'Poppins-Regular';
+}
+
+.cards {
+  box-shadow: rgb(0 0 0 / 65%) 0px 0px 8px;
+  width: 260px;
+  background: white;
+  margin-right: 25px;
+  height: 220px;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sensor_div {
+  width: 375px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 0px 8px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 98, 155);
+  height: 78px;
+  margin-bottom: 10px;
+}
+
+.sensor_tagtext {
+  margin-top: auto;
+  font-family: poppins-Regular;
+  margin-bottom: auto;
+  color: rgb(92, 91, 91);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sensor_tagcount {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(59, 166, 226);
+  margin-right: 10px;
+}
+
+.assetdet_btn {
+  color: #000000bd;
+  margin-right: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px;
+  width: 150px;
+  height: 27px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-family: Poppins-SemiBold;
+}
+
+.input-range__track--background {
+  background: #ffffff !important;
+}
+
+.input-range__slider {
+  width: 13px !important;
+  height: 13px !important;
+  background: #00629B !important;
+  border: 1px solid #00629B !important;
+}
+
+.input-range__track {
+  height: 0.5rem !important;
+}
+
+.input-range__track--active {
+  background: #00629B !important;
+}
+
+.input-range__label--value {
+  color: #00629B !important;
+}
+
+/* logoutmodal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(128, 128, 128, 0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 140px;
+  width: 325px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 4px lightgray;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.modalheader {
+  width: 379px;
+  height: 36px;
+  background: #00629B;
+  margin-top: -20px;
+  margin-left: -20px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.modaltext {
+  width: 180px;
+  float: right;
+  padding: 5px;
+  margin-right: -19px;
+}
+
+/* SessionOut Button */
+.btn-center {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00629B;
+  color: white;
+}
+
+.btn {
+  width: fit-content;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* --------------------- */
+
+
+/* configbuttons */
+.fancy-button {
+  margin-right: 40px;
+  width: 150px;
+  border-radius: 20px;
+  position: relative;
+  color: #000;
+  border: 1px solid #00629B;
+  font-size: 14px;
+  text-decoration: none;
+  height: 35px;
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+  font-family: Poppins-Regular;
+  cursor: pointer;
+}
+
+.active,
+.fancy-button:hover {
+  color: #FFF;
+  font-weight: 600;
+  border: 2px solid #fff;
+  background-color: #00629B;
+}
+
+.fancy-button:hover {
+  box-shadow: 0 .1em 1em #00629b;
+}
+
+/* asstdetails card */
+
+.ass-val {
+  color: #0080ff;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.ass-info {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  margin-left: 35px;
+  width: 110px;
+}
+
+.card {
+  margin-left: 63%;
+  margin-top: -6%;
+  /* margin-top: -3%; */
+  width: 25%;
+  height: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  height: 100px;
+}
+
+.card .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.card .content .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  z-index: 1;
+  padding: 10px;
+}
+
+.from-left {
+  top: -5px;
+  left: -105%;
+  background: #0080ff;
+}
+
+.card:hover .from-left {
+  left: 0%;
+  background-color: #f1f1f1f7;
+}
+
+#nodata {
+  width: 243px;
+  height: 67px;
+  background: #ff00000d;
+  margin-left: 415px;
+  margin-top: 100px;
+  border-radius: 5px;
+  display: none;
+}
+
+/* ststus division */
+#outer_red {
+  margin: auto;
+  position: relative;
+  width: 11px;
+  height: 11px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+#inner_red {
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: red;
+  border-radius: 50%;
+}
+
+#outer_green {
+  margin: auto;
+  position: relative;
+  width: 11px;
+  height: 11px;
+  border: 2px solid #23c106;
+  border-radius: 50%;
+}
+
+#inner_green {
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #23c106;
+  border-radius: 50%;
+}
+
+
+/* ----pagination------- */
+
+.pagination {
+  margin: 20px 20px;
+  padding: 10px;
+  border: 1px solid #e3bebe;
+  float: right;
+  border-radius: 5px;
+  margin-right: 5%;
+}
+
+.moving {
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Register And Remove Button style */
+
+.register {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #00629B;
+  border-radius: 0.6em;
+  color: #00629B;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  margin-left: 210px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.register:hover,
+.register:focus {
+  color: white;
+  outline: 0;
+}
+
+.reg {
+  transition: box-shadow 900ms ease-in-out, color 900ms ease-in-out;
+}
+
+.reg:hover {
+  box-shadow: 0 0 40px 40px #00629B inset;
+}
+
+.remove {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  margin-left: 210px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.remove:hover,
+.remove:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.rmv {
+  transition: box-shadow 900ms ease-in-out, color 900ms ease-in-out;
+}
+
+.rmv:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.icon {
+  transition: box-shadow 100ms ease-in-out, color 100ms ease-in-out;
+}
+
+.imgdiv {
+  margin: auto;
+  cursor: pointer;
+}
+
+.imgdiv i {
+  font-size: 20px;
+  color: #00629b;
+}
+
+/* .active1 .img-container {
+  transform: translate(250px,-407px) scale3d(1, 1, 1);
+  transition: transform 0.3s 0.3s cubic-bezier(0.99, 0.04, 0.57, 1.31);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+} */
+
+.img-container {
+  position: absolute;
+  display: none;
+  width: 62%;
+  top: 17%;
+  left: 23%;
+  height: 70vh;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  /* transform: translate(250px,-407px) scale3d(0, 0, 0);
+  transition: transform 0.3s 0.3s cubic-bezier(0.99, 0.04, 0.57, 1.31); */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* .img1 {
+  width: 390px;
+  margin-top: 85px;
+  margin-left: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  animation-delay: 1s;
+
+}
+
+.img2 {
+  width: 305px;
+  margin-top: 0px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  animation-delay: 1s;
+}
+
+.img3 {
+  width: 305px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  animation-delay: 1s;
+} */
+
+.img {
+  /* width: 260px; */
+  width: 92%;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  animation-delay: 1s;
+}
+
+.img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.03);
+}
+
+/* 
+.img2:hover {
+  transition: transform .5s ease;
+  transform: scale(1.03);
+}
+
+.img3:hover {
+  transition: transform .5s ease;
+  transform: scale(1.03);
+} */
+
+.hideimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  margin-left: 96%;
+  margin-top: -16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.hideimg i {
+  font-size: 30px;
+  color: rgb(255, 84, 84);
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 5px;
+}
